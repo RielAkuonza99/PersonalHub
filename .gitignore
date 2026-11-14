@@ -1,0 +1,16 @@
+# Environment
+.env
+.env.*
+!.env.example
+app/config/.env
+config/.env
+
+# Uploads
+app/assets/uploads/images/*
+app/assets/uploads/videos/*
+app/assets/uploads/files/*
+
+# System
+.DS_Store
+Thumbs.db
+*.log

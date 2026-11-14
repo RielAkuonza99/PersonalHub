@@ -1,0 +1,274 @@
+{
+  "site": {
+    "logo": "Riel.",
+    "title": "Personal HUB",
+    "name": "Riel Akuonza",
+    "roles": [
+      "Vibe Engineering",
+      "Web Development",
+      "AI Engineering",
+      "Application Development",
+      "Design Grafis",
+      "Motion Grafik",
+      "Modder",
+      "Trader (opsional untuk saat ini)"
+    ],
+    "tagline": "Seorang Vibe Engineering, Web Development, AI Engineering, Application Development, Design Grafis, Motion Grafik, Modder, dan Trader (opsional untuk saat ini).",
+    "photo": "assets/images/profile-placeholder.svg",
+    "cv": "",
+    "email": "you@example.com",
+    "about": "I'm an Informatics student who enjoys turning ideas into working software. This site documents my learning, projects, and goals. Replace this text with your own story.",
+    "bio": [
+      [
+        "Full name",
+        "Riel Akuonza"
+      ],
+      [
+        "Education",
+        "Informatics (Bachelor's) — edit"
+      ],
+      [
+        "Focus",
+        "Web development, software engineering — edit"
+      ],
+      [
+        "Location",
+        "Indonesia — edit"
+      ]
+    ],
+    "interests": [
+      "Web development",
+      "UI design",
+      "Open source",
+      "Problem solving"
+    ],
+    "goals": [
+      "Build and ship real projects regularly",
+      "Deepen backend and database knowledge",
+      "Contribute to open source",
+      "Prepare for a professional developer role"
+    ],
+    "socials": [
+      {
+        "id": "instagram",
+        "label": "Instagram",
+        "url": "https://www.instagram.com/rielakuonza00"
+      },
+      {
+        "id": "github",
+        "label": "GitHub",
+        "url": "https://github.com/RielAkuonza99"
+      },
+      {
+        "id": "tiktok",
+        "label": "TikTok",
+        "url": "https://www.tiktok.com/@rielakuonza00"
+      },
+      {
+        "id": "x",
+        "label": "X (Twitter)",
+        "url": "https://x.com/riel_akuonza"
+      }
+    ]
+  },
+  "skillCategories": [
+    [
+      "All",
+      "All"
+    ],
+    [
+      "Frontend",
+      "Frontend Development"
+    ],
+    [
+      "Backend",
+      "Backend Development"
+    ],
+    [
+      "Database",
+      "Database"
+    ],
+    [
+      "Tools",
+      "Tools & Technologies"
+    ]
+  ],
+  "skills": [
+    {
+      "name": "HTML & CSS",
+      "cat": "Frontend",
+      "level": 70
+    },
+    {
+      "name": "JavaScript",
+      "cat": "Frontend",
+      "level": 60
+    },
+    {
+      "name": "Responsive design",
+      "cat": "Frontend",
+      "level": 60
+    },
+    {
+      "name": "Node.js",
+      "cat": "Backend",
+      "level": 40
+    },
+    {
+      "name": "PHP",
+      "cat": "Backend",
+      "level": 45
+    },
+    {
+      "name": "MySQL",
+      "cat": "Database",
+      "level": 50
+    },
+    {
+      "name": "SQLite",
+      "cat": "Database",
+      "level": 40
+    },
+    {
+      "name": "Git & GitHub",
+      "cat": "Tools",
+      "level": 60
+    },
+    {
+      "name": "VS Code",
+      "cat": "Tools",
+      "level": 75
+    },
+    {
+      "name": "Figma",
+      "cat": "Tools",
+      "level": 40
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Personal Portfolio",
+      "type": "web",
+      "cat": "Web",
+      "desc": "This website: vanilla HTML, CSS and JavaScript with data-driven sections.",
+      "detail": "Built without frameworks. Content is edited in one data file.",
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "image": "assets/images/project-placeholder.svg",
+      "video": "",
+      "github": "https://github.com/RielAkuonza99/portfolio",
+      "demo": ""
+    },
+    {
+      "id": 2,
+      "name": "Task Tracker",
+      "type": "web",
+      "cat": "Web",
+      "desc": "A to-do app with filters and saved state in the browser.",
+      "detail": "Practice project for DOM manipulation and localStorage.",
+      "tech": [
+        "JavaScript",
+        "localStorage"
+      ],
+      "image": "assets/images/project-placeholder.svg",
+      "video": "",
+      "github": "https://github.com/RielAkuonza99/task-tracker",
+      "demo": ""
+    },
+    {
+      "id": 3,
+      "name": "Campus Library Database",
+      "type": "web",
+      "cat": "Database",
+      "desc": "Relational schema and queries for a small library system.",
+      "detail": "Includes ER diagram, normalization notes and sample queries.",
+      "tech": [
+        "MySQL",
+        "SQL"
+      ],
+      "image": "assets/images/project-placeholder.svg",
+      "video": "",
+      "github": "https://github.com/RielAkuonza99/library-db",
+      "demo": ""
+    },
+    {
+      "id": 4,
+      "name": "Notes API",
+      "type": "web",
+      "cat": "Backend",
+      "desc": "A small REST API for creating and reading notes.",
+      "detail": "Covers routing, validation and basic error handling.",
+      "tech": [
+        "Node.js",
+        "Express"
+      ],
+      "image": "assets/images/project-placeholder.svg",
+      "video": "",
+      "github": "https://github.com/RielAkuonza99/notes-api",
+      "demo": ""
+    },
+    {
+      "id": 5,
+      "name": "Poster Series (sample)",
+      "type": "design",
+      "cat": "Design",
+      "desc": "Sample graphic design post in 4:5 ratio.",
+      "detail": "Replace the image with your own design. Keep it 4:5.",
+      "tech": [
+        "Photoshop",
+        "Illustrator"
+      ],
+      "image": "assets/images/design-placeholder.svg",
+      "video": "",
+      "github": "",
+      "demo": ""
+    },
+    {
+      "id": 6,
+      "name": "Habit Tracker App (sample)",
+      "type": "app",
+      "cat": "App",
+      "desc": "Sample mobile app screen in 9:16 ratio.",
+      "detail": "Replace the image or add a video. Keep it 9:16.",
+      "tech": [
+        "Flutter"
+      ],
+      "image": "assets/images/app-placeholder.svg",
+      "video": "",
+      "github": "",
+      "demo": ""
+    }
+  ],
+  "journey": [
+    {
+      "year": "2022",
+      "title": "Started Informatics studies",
+      "text": "Began my degree and learned programming fundamentals."
+    },
+    {
+      "year": "2023",
+      "title": "First lines of web code",
+      "text": "Learned HTML, CSS and JavaScript through tutorials and small exercises."
+    },
+    {
+      "year": "2024",
+      "title": "First project",
+      "text": "Shipped a small web app and put it on GitHub."
+    },
+    {
+      "year": "2025",
+      "title": "Growing my skills",
+      "text": "Added backend and database knowledge and started larger projects."
+    },
+    {
+      "year": "2026",
+      "title": "Achievements",
+      "text": "Replace this with certificates, competitions or milestones."
+    }
+  ],
+  "videos": []
+}

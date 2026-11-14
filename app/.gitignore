@@ -1,0 +1,5 @@
+/config/.env
+/config/.env.*
+!/config/.env.example
+/assets/uploads/*
+!/assets/uploads/.htaccess

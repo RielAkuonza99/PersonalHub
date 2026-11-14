@@ -1,0 +1,16 @@
+DirectoryIndex index.php
+Options -Indexes
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^admin\.personalhub\.my\.id$ [NC]
+RewriteRule ^$ /admin/ [R=302,L]
+
+<FilesMatch "(^\.env|\.env$|\.sql$|\.log$|\.sh$|\.md$|composer\.(json|lock)$)">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order allow,deny
+    Deny from all
+  </IfModule>
+</FilesMatch>

@@ -1,0 +1,3 @@
+@media (max-width:900px){.hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr;gap:2.5rem}.portrait{max-width:320px}.sec{padding:5rem 0}}
+@media (max-width:760px){#burger{display:grid}#menu{position:absolute;top:64px;left:0;right:0;flex-direction:column;background:var(--bg);border-bottom:1px solid var(--line);padding:.75rem 4%;display:none}#menu.open{display:flex}#menu a{padding:.7rem 1rem}}
+@media (max-width:520px){.timeline li{grid-template-columns:1fr;gap:.2rem}.bio div{grid-template-columns:100px 1fr}#projSearch{max-width:none}.foot{flex-direction:column;align-items:flex-start}}
