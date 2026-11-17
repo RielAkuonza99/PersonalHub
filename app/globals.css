@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --font-display: "Permanent Marker", "Comic Sans MS", "Marker Felt", cursive;
+  --font-hand: "Gochi Hand", "Comic Sans MS", "Marker Felt", cursive;
+  --font-body: "Poppins", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+body { @apply bg-ink text-white font-sans antialiased; }
+
+:focus-visible { outline: 2px solid #c8ff1f; outline-offset: 3px; }
+
+@layer components {
+  .panel { @apply rounded-[28px] bg-panel border border-white/[0.04]; }
+  .btn { @apply inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition-transform duration-200 hover:-translate-y-0.5; }
+  .btn-lime { @apply btn bg-lime text-ink; }
+  .btn-ghost { @apply btn border border-volt/70 text-white hover:bg-volt/20; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { animation: none !important; transition: none !important; }
+}
